@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/415eb65d7d.js" crossorigin="anonymous"></script>
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <h1>Contacto</h1>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/pages/biografia.html">Biografía</a></li>
+                <li><a href="/pages/contacto.html">Contacto</a></li>
+                <li><a href="/pages/portfolio.html">Portfolio</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h3>Rellena este formulario para ponerte en contacto conmigo</h3>
+        <form class="my-form" action="#" method="POST">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="edad">Fecha de nacimiento</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="genero">Género</label>
+            <select required>
+                <option value="hombre">Hombre</option>
+                <option value="mujer">Mujer</option>
+            </select>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje</label>
+            <textarea name="mensaje" id="mensaje" required></textarea>
+
+            <label for="notificacion">Deseo recibir notificaciones</label>
+            <input type="checkbox" name="notificacion" id="notificacion">
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <footer>
+        <a href="www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+        <a href="www.twitter.com"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+        <a href="www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+    </footer>
+</body>
+</html>
