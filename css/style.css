@@ -19,41 +19,42 @@ body { /*Caracteristicas del body*/
     padding: 0;
 }
 
-header { 
+header {
     text-align: center;
-    margin-bottom: 0px;
-    text-decoration: underline;
-    text-decoration-style: solid;
+    margin-bottom: 0;
+    text-decoration: underline solid;
     font-size: 35px;
     padding: 10px;
 }
 
 header h1 {
-    margin: 80px 0px 0px 0px !important;
+    margin: 80px 0 0 !important;
 }
 
-h2 {
-    font-size: 30px;
+h2,
+.h2index,
+h3,
+h4 {
     text-align: center;
     margin-bottom: 60px;
 }
 
 .h2index {
     font-size: 40px;
-    text-align: center;
-    margin-bottom: 60px;
     margin-top: 120px;
 }
 
+h2 {
+    font-size: 30px;
+}
+
 h3 {
-    text-align: center;
     margin: 15px;
 }
 
 h4 {
     font-size: 20px;
     margin: 30px;
-    text-align: center;
 }
 
 p {
@@ -65,9 +66,7 @@ section {
     margin: 50px 150px;
 }
 
-
 /* Barra de navegación */
-
 nav {
     position: fixed;
     top: 0;
@@ -83,7 +82,7 @@ nav ul {
     font-size: larger;
 }
 
-nav ul li a { /* Enlaces de barra de navegación */
+nav ul li a {
     color: var(--lightblue);
     text-decoration: none;
 }
@@ -92,56 +91,53 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-
-/* Redes sociales*/
-
+/* Redes sociales */
 footer {
     display: flex;
     align-items: center;
     padding: 1em;
-    margin: 50px 50px 0px 50px;
+    margin: 50px;
     background-color: var(--darkgrey);
     border-radius: 5px;
+    margin-top: auto;
 }
 
-i { /*Iconos*/
+i,
+i:hover,
+a:hover {
     color: var(--lightblue);
 }
 
-i:hover, a:hover {
+i:hover,
+a:hover {
     color: purple;
 }
 
-#a1 { /*Enlace especial en index.html*/
+#a1 {
     color: rgb(41, 43, 43);
 }
 
 #a1:hover {
-    color:purple;
+    color: purple;
 }
 
-
-/* Proyectos de portfolio*/
-
+/* Proyectos */
 .proyectos {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-.contenedor { /* box de proyectos*/
-    display: block;
-    width: 100%;
-    border: 2px solid var(--darkgrey);
-    padding: 10px;
-    margin: 10px 0;
+.contenedor {
     display: flex;
     align-items: center;
     gap: 15px;
-    border-radius:10px;
-    margin-bottom: 50px;
+    padding: 10px;
+    margin: 10px 0 50px;
+    border: 2px solid var(--darkgrey);
+    border-radius: 10px;
     background-color: rgba(249, 249, 249, 0.4);
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.75);
 }
 
 .proyecto {
@@ -152,17 +148,12 @@ i:hover, a:hover {
     margin-left: 50px;
 }
 
-.proyectos p { /* Párrafos*/
+.proyectos p {
     font-size: 30px;
-}
-
-.proyectos li {
-    margin: 50px 0px 50px 0px;
 }
 
 .imagen-li {
     max-width: 100%;
-    width: auto;
     height: auto;
     object-fit: contain;
 }
@@ -172,72 +163,66 @@ i:hover, a:hover {
     margin: 0;
 }
 
-.h2proyecto { 
+.h2proyecto {
     text-transform: uppercase;
     margin-bottom: 60px;
     font-size: 50px;
 }
 
-/* Estilos de biografía.html*/
-
-.arbitro { /* Gifs y videos de árbitro */
-    max-width: 100%;
-    width: 300px; 
-    margin: 25px 0; 
-    height: auto; 
-}
-
-.juegos { /* Imagenes de juegos */
+/* Biografía */
+.arbitro,
+.juegos {
     max-width: 100%;
     width: 300px;
-    height: 300px; 
-    margin: 15px 0;
-} 
-
-.contenedorbiografia { 
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    border: 2px solid var(--darkgrey);
-    padding: 10px;
-    margin: 10px 0;
-    justify-content: space-around;
-    gap: 15px;
-    border-radius: 10px;
-    margin-bottom: 50px;
-    background-color: rgba(249, 249, 249, 0.4);
-    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    height: auto;
+    margin: 25px 0;
 }
 
-/* Formulario*/
+.juegos {
+    height: 300px;
+    margin: 15px 0;
+}
 
-.my-form { /*box de formulario*/
+.contenedorbiografia {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 10px;
+    margin: 10px 0 50px;
+    border: 2px solid var(--darkgrey);
+    border-radius: 10px;
+    background-color: rgba(249, 249, 249, 0.4);
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.75);
+    justify-content: space-around;
+}
+
+/* Formulario */
+.my-form {
     max-width: 400px;
-    margin: 0 auto; 
+    margin: 0 auto;
     padding: 20px;
     background-color: #f4f4f4;
     border-radius: 25px;
     border: 1px solid;
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.75);
 }
 
-.my-form label { /*labels de formulario*/
-    font-size: 20px;
-}
-
-.my-form label, .my-form input, .my-form textarea, .my-form button, .my-form select {
-    display: block;  
-    width: 100%;     
+.my-form label,
+.my-form input,
+.my-form textarea,
+.my-form button,
+.my-form select {
+    width: 100%;
     margin-bottom: 15px;
 }
 
-.my-form input, .my-form textarea {
+.my-form input,
+.my-form textarea {
     padding: 10px;
     font-size: 15px;
 }
 
-.my-form button { /*boton de formulario*/
+.my-form button {
     background-color: var(--lightblue);
     padding: 10px 15px;
     border: 1px solid;
@@ -246,48 +231,45 @@ i:hover, a:hover {
 }
 
 .my-form button:hover {
-    background-color: var(--darkgrey)
+    background-color: var(--darkgrey);
 }
 
-/* Mapa de Coslada*/
-
+/* Mapa */
 .map {
-    text-align: center; 
+    text-align: center;
 }
 
 .map iframe {
-    display: inline-block; 
+    display: inline-block;
 }
 
-
-
-@media (min-width: 768px) { /* Para pantallas de al menos 768px */
+/* Media Queries */
+@media (min-width: 768px) {
     nav ul {
-        flex-direction: row; /*los elementos se alinean en una fila */
+        flex-direction: row;
         justify-content: space-between;
     }
 
     .contenedor {
-        display: flex; 
         gap: 20px;
         padding: 20px;
         width: 90%;
-        margin: 20px auto; 
+        margin: 20px auto;
     }
 
-    .proyectofullstack, .proyectoarbitro {
+    .proyectofullstack,
+    .proyectoarbitro {
         font-size: 35px;
     }
 
     footer {
         font-size: 20px;
-        flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-b;
+        align-items: center;
     }
 }
 
-
-@media (min-width: 1024px) { /* Para pantallas de mas de 1024px*/
+@media (min-width: 1024px) {
     body {
         font-size: 18px;
     }
@@ -301,25 +283,46 @@ i:hover, a:hover {
         gap: 30px;
     }
 
-    .proyectofullstack, .proyectoarbitro {
+    .proyectofullstack,
+    .proyectoarbitro {
         font-size: 40px;
     }
 
     footer {
         font-size: 22px;
-        flex-direction: row;
         justify-content: space-between;
+        margin-top: auto;
     }
 }
 
 @media (max-width: 768px) {
-    .arbitro, .juegos {
-        max-width: 90%; 
-        margin: 10px auto; 
+
+    .arbitro,
+    .juegos {
+        max-width: 90%;
+        margin: 10px auto;
     }
 
+.contenedor {
+    flex-direction: column;
+}
+
+
     .contenedorbiografia {
-        flex-direction: column; 
+        flex-direction: column;
         align-items: center;
     }
-}    
+}
+    footer {
+        padding: 1em 0.5em; /* Reduce el padding en pantallas más pequeñas */
+        margin: 0; /* Elimina márgenes adicionales */
+        border-radius: 0;
+        justify-content: center;
+        justify-content: space-between;
+    }
+
+    nav ul {
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 20px;
+    }
