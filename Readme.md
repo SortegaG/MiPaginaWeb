@@ -31,7 +31,7 @@ El proyecto está organizado de la siguiente manera:
 ├── css/
 │   └── styles.css    # Archivo de estilos CSS
 └── js/
-    └── formulario.js # Archivo de funciones JavaScript para el formulario ```
+    └── formulario.js # Archivo de funciones JavaScript para el formulario ```bash
 
 ## 🚀 Funcionalidades
 
