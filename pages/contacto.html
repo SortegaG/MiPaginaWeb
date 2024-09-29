@@ -22,27 +22,29 @@
     </header>
     <section>
         <h3>Rellena este formulario para ponerte en contacto conmigo</h3>
-        <form name="formulario" class="my-form" action="#" method="POST">
+        <form name="formulario" id="my-form" class="my-form" action="#" method="POST">
             <label for="nombre">Nombre</label>
-            <input type="text" id="nombre" name="nombre" required>
+            <input type="text" id="nombre" name="nombre">
+            <button type="submit">Enviar</button>
+
 
             <label for="edad">Fecha de nacimiento</label>
-            <input type="date" id="date" name="date" required>
+            <input type="date" id="date" name="date">
 
             <label for="genero">Género</label>
-            <select name="genero" id="genero" required>
+            <select name="genero" id="genero">
                 <option value="hombre">Hombre</option>
                 <option value="mujer">Mujer</option>
             </select>
 
             <label for="email">Email</label>
-            <input type="email" id="email" name="email" required>
+            <input type="text" id="email" name="email">
 
             <label for="mensaje">Mensaje</label>
-            <textarea name="mensaje" id="mensaje" required></textarea>
+            <textarea name="mensaje" id="mensaje"></textarea>
 
-            <label for="notificacion">Deseo recibir notificaciones</label>
-            <input type="checkbox" name="notificacion" id="notificacion">
+            <label for="notificacion">Acepto terminos y condiciones</label>
+            <input type="checkbox" name="terminos" id="terminos">
 
             <button type="submit">Enviar</button>
         </form>
@@ -53,5 +55,6 @@
         <a href="www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
         <a href="www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
     </footer>
+    <script src="/Mipaginaweb3/scripts/formulario.js"></script>
 </body>
 </html>
