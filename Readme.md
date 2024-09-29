@@ -31,7 +31,7 @@ El proyecto está organizado de la siguiente manera:
 ├── css/
 │   └── styles.css    # Archivo de estilos CSS
 └── js/
-    └── formulario.js # Archivo de funciones JavaScript para el formulario
+    └── formulario.js # Archivo de funciones JavaScript para el formulario ```
 
 ## 🚀 Funcionalidades
 
@@ -47,7 +47,7 @@ Sigue estos pasos para ejecutar el proyecto localmente en tu computadora:
 
 1. Clona el repositorio en tu máquina local:
    ```bash
-   git clone https://github.com/tu-usuario/nombre-del-repositorio.git
+   git clone https://github.com/tu-usuario/nombre-del-repositorio.git```
 
 ## 🚧 Estado del Proyecto
 
