@@ -22,7 +22,7 @@ Cada una de estas páginas se construye utilizando **HTML** para la estructura, 
 
 El proyecto está organizado de la siguiente manera:
 
-```bash
+```
 ├── index.html        # Página principal
 ├── pages/
 │   ├── biografia.html  # Página de biografía
@@ -31,7 +31,8 @@ El proyecto está organizado de la siguiente manera:
 ├── css/
 │   └── styles.css    # Archivo de estilos CSS
 └── js/
-    └── formulario.js # Archivo de funciones JavaScript para el formulario ```
+    └── formulario.js # Archivo de funciones JavaScript para el formulario 
+```
 
 ## 🚀 Funcionalidades
 
@@ -46,9 +47,9 @@ El proyecto está organizado de la siguiente manera:
 Sigue estos pasos para ejecutar el proyecto localmente en tu computadora:
 
 1. Clona el repositorio en tu máquina local:
-   ```bash
-   git clone https://github.com/tu-usuario/nombre-del-repositorio.git```
-
+```
+   git clone https://github.com/tu-usuario/nombre-del-repositorio.git
+```
 ## 🚧 Estado del Proyecto
 
 Este proyecto está en constante evolución. A medida que sigo aprendiendo nuevas técnicas y tecnologías relacionadas con el desarrollo web, se irán añadiendo mejoras y nuevas funcionalidades.
