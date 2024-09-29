@@ -1,3 +1,9 @@
+# Mi Primera Página Web 🚀
+
+Este repositorio contiene mi primera página web que creé como parte de mi aprendizaje de HTML, CSS y JavaScript. En este proyecto, estoy practicando la creación de páginas web básicas.
+
+## 🌐 Descripción del Proyecto
+
 Este proyecto es una sencilla página web estática que incluye tres secciones principales:
 
 - **Biografía**: Una página donde comparto información personal y detalles sobre mí.
@@ -16,7 +22,7 @@ Cada una de estas páginas se construye utilizando **HTML** para la estructura, 
 
 El proyecto está organizado de la siguiente manera:
 
-
+```
 ├── index.html        # Página principal
 ├── pages/
 │   ├── biografia.html  # Página de biografía
@@ -26,6 +32,7 @@ El proyecto está organizado de la siguiente manera:
 │   └── styles.css    # Archivo de estilos CSS
 └── js/
     └── formulario.js # Archivo de funciones JavaScript para el formulario 
+```
 
 ## 🚀 Funcionalidades
 
@@ -40,9 +47,9 @@ El proyecto está organizado de la siguiente manera:
 Sigue estos pasos para ejecutar el proyecto localmente en tu computadora:
 
 1. Clona el repositorio en tu máquina local:
-   
+```
    git clone https://github.com/tu-usuario/nombre-del-repositorio.git
-
+```
 ## 🚧 Estado del Proyecto
 
 Este proyecto está en constante evolución. A medida que sigo aprendiendo nuevas técnicas y tecnologías relacionadas con el desarrollo web, se irán añadiendo mejoras y nuevas funcionalidades.
@@ -63,7 +70,6 @@ Si tienes alguna pregunta, sugerencia o simplemente quieres saludar, no dudes en
 - Envíame un correo electrónico a: **ortegagarrido.sergio@gmail.com**
 
 ¡Estoy abierto a sugerencias y comentarios para mejorar el proyecto!
-
 
 - Completa el formulario de contacto en la página web.
 - Envíame un correo electrónico a: **ortegagarrido.sergio@gmail.com**
