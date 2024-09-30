@@ -48,7 +48,7 @@ Sigue estos pasos para ejecutar el proyecto localmente en tu computadora:
 
 1. Clona el repositorio en tu máquina local:
 ```
-   git clone https://github.com/tu-usuario/nombre-del-repositorio.git
+   git clone git@github.com:SortegaG/Mipaginaweb3.git
 ```
 ## 🚧 Estado del Proyecto
 
@@ -65,11 +65,6 @@ Este proyecto refleja mi crecimiento y aprendizaje continuo en el desarrollo web
 ## 📬 Contacto
 
 Si tienes alguna pregunta, sugerencia o simplemente quieres saludar, no dudes en contactarme a través de los siguientes medios:
-
-- Completa el formulario de contacto en la página web.
-- Envíame un correo electrónico a: **ortegagarrido.sergio@gmail.com**
-
-¡Estoy abierto a sugerencias y comentarios para mejorar el proyecto!
 
 - Completa el formulario de contacto en la página web.
 - Envíame un correo electrónico a: **ortegagarrido.sergio@gmail.com**
