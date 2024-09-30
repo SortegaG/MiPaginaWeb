@@ -69,9 +69,4 @@ Si tienes alguna pregunta, sugerencia o simplemente quieres saludar, no dudes en
 - Completa el formulario de contacto en la página web.
 - Envíame un correo electrónico a: **ortegagarrido.sergio@gmail.com**
 
-¡Estoy abierto a sugerencias y comentarios para mejorar el proyecto!
-
-- Completa el formulario de contacto en la página web.
-- Envíame un correo electrónico a: **ortegagarrido.sergio@gmail.com**
-
 ¡Estoy abierto a sugerencias y comentarios para mejorar el proyecto! ¡Un saludo!
