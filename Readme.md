@@ -48,7 +48,7 @@ Sigue estos pasos para ejecutar el proyecto localmente en tu computadora:
 
 1. Clona el repositorio en tu máquina local:
 ```
-   git clone https://github.com/tu-usuario/nombre-del-repositorio.git
+   git clone git@github.com:SortegaG/Mipaginaweb3.git
 ```
 ## 🚧 Estado del Proyecto
 
